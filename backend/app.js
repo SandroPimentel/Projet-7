@@ -3,7 +3,6 @@ const bodyParser = require('body-parser')
 const mongoose = require('mongoose');
 const bookRoutes = require('./routes/bookRoutes');
 const userRoutes = require('./routes/user');
-
 const cors = require('cors');
 
 mongoose.connect('mongodb+srv://usertest1:apptest@cluster0.v40b6vo.mongodb.net/',
